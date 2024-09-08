@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/capture.png)
+![](./public/captura.png)
 
 ## My Process
 
