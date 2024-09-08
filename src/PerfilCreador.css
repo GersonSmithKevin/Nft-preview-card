@@ -1,0 +1,27 @@
+.perfilCreador {
+  width: 300px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: star;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.perfilCreador__imagen {
+  width: 20px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  object-fit: cover;
+}
+
+.perfilCreador__nombre {
+  color: hsl(215, 32%, 27%);
+}
+
+.perfilCreador__nombre__enlace {
+  color: hsl(213, 52%, 96%);
+  text-decoration: none;
+  /* border: 2px solid rgb(230, 7, 81); */
+}
