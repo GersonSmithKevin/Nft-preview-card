@@ -1,0 +1,61 @@
+.informacionVentas {
+  height: auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsla(0, 18%, 93%, 0.678);
+  font-size: 18px;
+}
+
+
+.costo {
+  display: flex;
+  justify-content: start;
+  /* Ajusta según tus necesidades */
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  /* Asegúrate de que no haya márgenes externos */
+  padding: 0;
+  /* Asegúrate de que no haya relleno adicional */
+  width: fit-content;
+  /* Ajusta el ancho al contenido */
+  height: fit-content;
+  /* Ajusta la altura al contenido */
+  max-width: 100%;
+  /* Evita que se expanda más allá del contenedor padre */
+  max-height: 100%;
+  /* Evita que se expanda más allá del contenedor padre */
+  color: hsl(178, 100%, 50%);
+}
+
+.costo__Icono {
+  display: block;
+}
+
+.costoPrecio {
+  flex: 0 0 auto;
+  font-size: 15px;
+}
+
+.tiempo {
+  display: flex;
+  justify-content: start;
+  /* Ajusta según tus necesidades */
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  /* Asegúrate de que no haya márgenes externos */
+  padding: 0;
+  /* Asegúrate de que no haya relleno adicional */
+  width: fit-content;
+  /* Ajusta el ancho al contenido */
+  height: fit-content;
+  /* Ajusta la altura al contenido */
+  max-width: 100%;
+  /* Evita que se expanda más allá del contenedor padre */
+  max-height: 100%;
+  /* Evita que se expanda más allá del contenedor padre */
+  color: hsl(215, 32%, 27%)
+}
