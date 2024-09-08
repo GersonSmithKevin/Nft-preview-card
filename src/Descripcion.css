@@ -1,0 +1,16 @@
+.descripcion {
+  width: 300px;
+  display: block;
+  justify-content: star;
+  color: white;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+.descripcion__contenido {
+  color: white;
+  font-size: 16px;
+}
