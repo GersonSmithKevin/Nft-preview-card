@@ -1,0 +1,16 @@
+.imagen {
+  width: 300px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: star;
+  align-items: center;
+  font-size: 12px;
+  gap: 8px;
+
+}
+
+.imagen__src {
+  border-radius: 10px;
+  width: 300px;
+  object-fit: cover;
+}
